@@ -8,7 +8,7 @@ begin
     gem.summary = %Q{Use nested attributes to add nested fields}
     gem.description = %Q{Use nested attributes to add nested fields}
     gem.email = "roberto.sanchez@crowdint.com"
-    gem.homepage = "http://github.com/robertosanchez/nested-fields"
+    gem.homepage = "https://github.com/crowdint/robert"
     gem.authors = ["Roberto Sanchez Sanchez"]
     # gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
