@@ -23,11 +23,14 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "lib/generators/nested_generator.rb",
+     "lib/generators/templates/nested-fields.js",
      "lib/nested-fields.rb",
+     "nested-fields.gemspec",
      "test/helper.rb",
      "test/test_nested-fields.rb"
   ]
-  s.homepage = %q{http://github.com/robertosanchez/nested-fields}
+  s.homepage = %q{https://github.com/crowdint/robert}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
