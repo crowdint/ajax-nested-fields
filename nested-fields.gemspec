@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{nested-fields}
-  s.version = "0.0.0"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Roberto Sanchez Sanchez"]
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/generators/nested_generator.rb",
      "lib/generators/templates/nested-fields.js",
+     "lib/generators/templates/nested_fields_helper.rb",
      "lib/nested-fields.rb",
      "nested-fields.gemspec",
      "test/helper.rb",
