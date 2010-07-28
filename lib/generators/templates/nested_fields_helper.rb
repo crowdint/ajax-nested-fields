@@ -1,6 +1,7 @@
 module NestedFieldsHelper
-  def link_to_remove_fields(name, f)
-    f.hidden_field(:_destroy) + link_to_function(name, "remove_fields(this)")
+  
+  def link_to_remove_fields(name, f, container)
+    f.hidden_field(:_destroy) + link_to_function(name, "remove_fields(this, '#{container}')")
   end
 
   def link_to_new_child(f, association)
@@ -12,4 +13,5 @@ module NestedFieldsHelper
 
     link_to_function "Add #{association}", h("add_child_field('#{association}', 'new_#{association.singularize}', \"#{escape_javascript(fields)}\")")
   end
+  
 end
