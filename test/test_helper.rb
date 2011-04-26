@@ -15,6 +15,8 @@ module AjaxNestedFields
 end
 
 ActionController::Base.send :include, AjaxNestedFields::Application.routes.url_helpers
+path = File.join(File.dirname(__FILE__), "support", "views")
+ActionController::Base.view_paths = [path]
 
 AjaxNestedFields::Application.routes.draw do
   resources :movies
