@@ -1,7 +1,7 @@
-require 'helper'
+require 'test_helper'
 
-class TestNestedFields < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+class TestNestedFields < MiniTest::Unit::TestCase
+  def test_the_truth
+    assert true
   end
 end

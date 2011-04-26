@@ -4,7 +4,7 @@ require "ajax-nested-fields/version"
 
 Gem::Specification.new do |s|
   s.name        = "ajax-nested-fields"
-  s.version     = Ajax::Nested::Fields::VERSION
+  s.version     = AjaxNestedFields::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Roberto Sanchez", "David Padilla"]
   s.email       = ["roberto.sanchez@crowdint.com", "david@crowdint.com"]
@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "ajax-nested-fields"
 
+  s.add_dependency 'actionpack', '~> 3.0.0'
   s.add_development_dependency "minitest"
 
   s.files         = `git ls-files`.split("\n")
