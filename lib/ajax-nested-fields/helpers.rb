@@ -11,7 +11,7 @@ module AjaxNestedFields
         render("#{association.singularize}_fields", :f => builder)
       end
 
-      link_to_function "Add #{association}", h("add_child_field('#{association}', 'new_#{association.singularize}', \"#{escape_javascript(fields)}\")")
+      link_to_function "Add #{association}", raw("add_child_field('#{association}', 'new_#{association.singularize}', \"#{escape_javascript(fields)}\")")
     end
   end
 end
