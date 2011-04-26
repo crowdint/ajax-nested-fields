@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "ajax-nested-fields"
 
-  s.add_dependency 'actionpack', '~> 3.0.0'
+  s.add_dependency 'rails', '~> 3.0.0'
   s.add_development_dependency "minitest"
 
   s.files         = `git ls-files`.split("\n")

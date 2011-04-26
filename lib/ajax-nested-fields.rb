@@ -1,4 +1,5 @@
 require 'action_view'
+require 'ajax-nested-fields/helpers'
 
 # module NestedFields
   # def self.included(base)
@@ -6,6 +7,4 @@ require 'action_view'
   # end
 # end
 
-# class ActionView::Base
-  # include NestedFields
-# end
+ActionView::Base.send :include, AjaxNestedFields::Helpers
