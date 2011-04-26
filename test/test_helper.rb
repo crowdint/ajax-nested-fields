@@ -6,8 +6,10 @@ ENV['RAILS_ENV'] ||= 'test'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
+
 require 'rails/all'
 require 'rails/test_help'
+require 'support/active_record'
 require 'ajax-nested-fields'
 
 module AjaxNestedFields

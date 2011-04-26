@@ -1,9 +1,5 @@
 module AjaxNestedFields
   module Helpers
-    def just_a_helper
-      "success"
-    end
-
     def link_to_remove_fields(name, f, container)
       f.hidden_field(:_destroy) + link_to_function(name, "remove_fields(this, '#{container}')")
     end
