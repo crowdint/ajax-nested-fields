@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    ajax-nested-fields (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    minitest (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ajax-nested-fields!
+  minitest
